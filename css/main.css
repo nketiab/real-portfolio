@@ -1,0 +1,188 @@
+/************************ BASE STYLES ***************************/
+@font-face {
+	font-family: 'Earthan';
+	src: url('../fonts/earthan/earthan.otf') format('opentype');
+}
+
+@font-face {
+	font-family: 'Jenriv';
+	src: url('../fonts/jenriv/jenrivtitling-regular.otf') format('opentype');
+
+	font-family: 'Jenriv Bold';
+	src: url('../fonts/jenriv/jenrivtitling-bold.otf') format('opentype');
+}
+
+body {
+	background: #F4F0CD;
+}
+
+body h2{
+	font-family: Jenriv Bold;
+	color: #282829;
+	font-size: 38px;
+	text-align: center;
+	letter-spacing: 6px;
+	
+	
+
+}
+/*************************** GRID ******************************/
+
+.full-width {
+	
+	margin: 0 auto;
+	overflow: auto;
+}
+
+.half-width {
+	width: 600px;
+	float: left;
+}
+
+.third-width {
+	width: 400px;
+	float: left;
+	margin-left: 20px;
+}
+
+/******************************** HEADER **********************/
+html header {
+	margin: 0;
+	padding: 0;
+}
+header {
+	height: 800px;
+	background: url('../img/images-icons/typewriter.jpg');
+	background-size: cover;
+	background-position: center;
+	margin: 0;
+	padding: 0;
+}
+
+header h1 {
+	font-family: earthan;
+	color: #282829;
+	font-size: 200px;
+	padding-top: 360px;
+	padding-left: 300px;
+	margin-bottom: 30px;
+	margin-top: 0;
+
+}
+
+#title-one, #title-two, #title-three{
+	font-family: Jenriv Bold;
+	font-size: 27px;
+	text-align: center;
+	margin: 0;
+	display: inline;
+	letter-spacing: 9px;
+
+}
+#title-one {
+	padding-left: 355px;
+	color: #353C2F;
+}
+
+#title-two {
+	color: #353C2F;
+	padding-left: 5px;
+}
+#title-three {
+	display: block;
+	color: #c5541b;
+	font-size: 32px;
+	padding-left: 70px;
+	letter-spacing: 14px
+}
+
+/****************************PROJECTS********************/
+
+
+
+img {
+	width: 400px;
+}
+
+h3 {
+	font-family: Jenriv Bold;
+	letter-spacing: 4px;
+	text-align: center;
+}
+
+.sub-title {
+	font-family: Jenriv Bold;
+	color: #353C2F;
+	text-align: center ;
+}
+
+.description {
+ 	font-family: Jenriv;
+ 	
+ }
+
+/******************************* ABOUT ME *******************/
+
+.about-me {
+	background: #E9E19B;
+	overflow: auto 0;
+}
+
+.headshot {
+	padding-left: 50px;
+
+}
+
+.bio {
+	
+	font-family: Jenriv;
+	float: left;
+	font-size:28px;
+}
+
+#tagline {
+	text-transform: capitalize;
+	font-weight: 700;
+	font-size: 32px;
+	margin-top: 0;
+}
+
+.bio p {
+	color: #353C2F;
+}
+.bio p span {
+	color: #c5541b;
+	text-transform: capitalize;
+	font-size: 32px;
+}
+ .bio a {
+ 	font-size: 16px;
+ 	color: #c5541b;
+ 	background: #F4F0CD;
+ 	display: inline-block;
+ 	padding: 8px 20px;
+ 	text-align: center;
+ 	text-decoration: none;
+ }
+/******************************** CONTACT ***********************/
+
+ footer {
+ 	overflow: auto;
+ 	display: flex;
+ 	justify-content: center;
+ 	align-items: center;
+
+
+
+ }
+  footer li, a{
+  	display: flex;
+  	justify-content: center;
+  	align-items: center;
+  	text-decoration: none;
+  	list-style: none;
+  	font-family: 'Jenriv Bold';
+  	font-size: 24px;
+  	text-align: center;
+  	color: #c5541b;
+  }
